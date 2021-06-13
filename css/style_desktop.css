@@ -1,0 +1,92 @@
+@keyframes wave {
+  0% {
+    transform: translateX(-50%);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.hero {
+  padding: 50px 55px;
+}
+
+.hero .hero__fig {
+  height: 30px;
+}
+
+.main .btn {
+  font-size: 1.5rem;
+  padding: 0 55px;
+}
+
+.main .section__one .section__one__title {
+  font-size: 3.3rem;
+  max-width: 1000px;
+}
+
+.main .section__one .section__one__copy {
+  font-size: 1.6rem;
+  max-width: 540px;
+}
+
+.main .section__two .section__two__fig {
+  max-width: 680px;
+}
+
+.main .section__three .section__three__communites .section__three__title {
+  font-size: 6rem;
+}
+
+.main .section__three .section__three__communites .section__three__copy {
+  font-size: 1.6rem;
+}
+
+.main .section__four .section__four__content {
+  column-gap: 70px;
+}
+
+.main .section__four .section__four__content .section__four__text .section__four__title {
+  font-size: 2.6rem;
+}
+
+.main .section__four .section__four__content .section__four__text .section__four__copy {
+  font-size: 1.6rem;
+}
+
+.main .section__five .section__five__title {
+  font-size: 2.8rem;
+}
+
+.footer .section__footer {
+  grid-template-columns: repeat(2, minmax(100px, 370px));
+}
+
+.footer .section__footer .footer__content__one .footer__title {
+  font-size: 2.5rem;
+}
+
+.footer .section__footer .footer__content__one .footer__copy {
+  font-size: 1.6rem;
+  max-width: 370px;
+}
+
+.footer .section__footer .footer__content_two .footer__img {
+  height: 35px;
+}
+
+.footer .section__footer .footer__content_two .footer__copy {
+  font-size: 1.6rem;
+  max-width: 370px;
+}
+
+.footer .section__footer .footer__content_two .content__phone .content__text {
+  font-size: 1.6rem;
+}
+
+.footer .section__footer .footer__content_two .footer__follow .link .fab {
+  font-size: 3.2rem;
+}

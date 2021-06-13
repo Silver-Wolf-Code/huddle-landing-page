@@ -1,0 +1,38 @@
+.footer {
+
+  .section__footer {
+    grid-template-columns: repeat(2, minmax(100px, 300px));
+    justify-content: space-around;
+    grid-template-areas:
+      "col-one col-two";
+
+
+    .footer__content__one {
+      grid-area: col-two;
+
+      .footer__copy {
+        font-size: 1.5rem;
+      }
+
+    }
+
+    .footer__content_two {
+      grid-area: col-one;
+
+      .footer__copy {
+        font-size: 1.5rem;
+      }
+
+      .content__phone {
+
+        .content__text {
+          font-size: 1.5rem;
+        }
+
+      }
+
+    }
+
+  }
+
+}

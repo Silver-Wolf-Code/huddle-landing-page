@@ -1,0 +1,36 @@
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(50px, 100px));
+  grid-template-rows: 30px;
+  justify-content: space-between;
+  padding: 30px 20px;
+
+  .hero__fig {
+    height: 20px;
+    align-self: center;
+
+    .hero__img {
+      height: 100%;
+    }
+
+  }
+
+  .hero__btn {
+    border: 1px solid $Pink;
+    border-radius: 30px;
+    background: none;
+    box-shadow: 0 0 3px 0px $Light-Pink;
+    cursor: pointer;
+    color: $Pink;
+    font-family: $font-Body;
+    font-weight: 400;
+
+    &:hover {
+      background: $Pink;
+      color: $Very-Pale-Blue;
+      transition: .5s ease;
+    }
+
+  }
+
+}

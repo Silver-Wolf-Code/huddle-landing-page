@@ -1,0 +1,9 @@
+.footer {
+
+  .section__footer {
+    display: grid;
+    grid-template-columns: minmax(100px, 530px);
+    justify-content: center;
+  }
+
+}

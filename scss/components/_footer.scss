@@ -1,0 +1,139 @@
+.footer {
+  overflow: hidden;
+
+  .footer__weave {
+    width: 200%;
+    margin-bottom: -5px;
+    animation: wave 35s linear infinite;
+    height: 112px;
+  }
+
+  .section__footer {
+    padding: 40px 35px;
+    background: $Very-Dark-Cyan;
+    color: $Very-Pale-Blue;
+    font-family: $font-Body;
+
+    .footer__content__one {
+      margin-bottom: 120px;
+
+      .footer__title {
+        font-size: 2.2rem;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+
+      .footer__copy {
+        font-size: 1.4rem;
+        line-height: 1.7;
+        margin-bottom: 30px;
+      }
+
+      .footer__form {
+        text-align: right;
+
+        .email {
+          .footer__email {
+            height: 40px;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            outline: none;
+            padding: 0 10px;
+
+            &:focus-within {
+              border: 1px solid $Light-Pink;
+            }
+
+          }
+
+
+        }
+
+        #text {
+          display: block;
+          padding-bottom: 10px;
+          text-align: left;
+          font-family: $font-Body;
+          font-size: 1.4rem;
+        }
+
+        .footer__btn {
+          width: 100px;
+          width: 150px;
+          height: 40px;
+          border: none;
+          border-radius: 5px;
+          background: $Pink;
+          color: $Very-Pale-Blue;
+          font-family: $font-Body;
+          font-weight: 600;
+          font-size: 1.4rem;
+          cursor: pointer;
+
+          &:hover {
+            background: $Light-Pink;
+            transition: .5s ease;
+          }
+
+        }
+
+      }
+
+    }
+
+    .footer__content_two {
+
+      .footer__img {
+        height: 32px;
+        margin-bottom: 20px;
+      }
+
+      .footer__copy {
+        font-size: 1.4rem;
+        line-height: 1.7;
+        margin-bottom: 50px;
+      }
+
+      .content__phone {
+        margin-bottom: 20px;
+
+        .content__img {
+          margin-right: 15px;
+        }
+
+        .content__text {
+          font-size: 1.4rem;
+          color: rgba(240, 247, 255, 0.897);
+        }
+
+      }
+
+      .footer__follow {
+        margin-top: 45px;
+
+        .link {
+          color: $Very-Pale-Blue;
+          text-decoration: none;
+          margin-right: 15px;
+
+          &:hover {
+            color: #02C6F1;
+            transition: .5s ease;
+          }
+
+          .fab {
+            font-size: 2.8rem;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}

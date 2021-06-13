@@ -1,0 +1,77 @@
+.main {
+
+  .btn {
+    font-size: 1.5rem;
+    padding: 0 55px;
+
+  }
+
+  .section__one {
+
+    .section__one__title {
+      font-size: 3.3rem;
+      max-width: 1000px;
+    }
+
+    .section__one__copy {
+      font-size: 1.6rem;
+      max-width: 540px;
+    }
+
+  }
+
+  .section__two {
+
+    .section__two__fig {
+      max-width: 680px;
+
+    }
+
+  }
+
+  .section__three {
+
+    .section__three__communites {
+
+      .section__three__title {
+        font-size: 6rem;
+
+      }
+
+      .section__three__copy {
+        font-size: 1.6rem;
+      }
+
+    }
+  }
+
+  .section__four {
+
+    .section__four__content {
+      column-gap: 70px;
+
+      .section__four__text {
+
+        .section__four__title {
+          font-size: 2.6rem;
+        }
+
+        .section__four__copy {
+          font-size: 1.6rem;
+        }
+
+      }
+
+    }
+
+  }
+
+  .section__five {
+
+    .section__five__title {
+      font-size: 2.8rem;
+    }
+
+  }
+
+}

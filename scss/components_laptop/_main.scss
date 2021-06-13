@@ -1,0 +1,99 @@
+.main {
+
+  .btn {
+    height: 46px;
+    padding: 0 50px;
+    font-size: 1.4rem;
+  }
+
+  .section__one {
+
+    .section__one__title {
+      font-size: 2.8rem;
+      max-width: 650px;
+    }
+
+    .section__one__copy {
+      font-size: 1.5rem;
+      max-width: 530px;
+    }
+
+  }
+
+  .section__two {
+
+    .section__two__fig {
+      max-width: 660px;
+    }
+
+  }
+
+  .section__three {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+
+    .section__three__communites {
+
+      .section__three__copy {
+        font-size: 1.5rem;
+      }
+
+    }
+  }
+
+  .section__four {
+
+    .section__four__content {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas:
+        "col-1 col-2";
+      column-gap: 40px;
+      align-items: center;
+      padding: 20px 80px;
+
+      .section__four__img {
+        width: 100%;
+        margin-bottom: 80px;
+        grid-area: col-2;
+      }
+
+      .section__four__text {
+        grid-area: col-1;
+        text-align: left;
+
+        .section__four__title {
+          font-size: 2.2rem;
+        }
+
+        .section__four__copy {
+          font-size: 1.5rem;
+        }
+
+      }
+
+    }
+
+
+    .section__four__content--mod {
+
+      .section__four__img {
+        grid-area: col-1;
+      }
+
+      .section__four__text {
+        grid-area: col-2;
+      }
+
+    }
+  }
+
+  .section__five {
+
+    .section__five__title {
+      font-size: 2.5rem;
+    }
+
+  }
+
+}

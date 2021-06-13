@@ -1,0 +1,18 @@
+.hero {
+  grid-template-columns: repeat(2, minmax(50px, 120px));
+  grid-template-rows: 35px;
+}
+
+.hero .hero__fig {
+  height: 25px;
+}
+
+.main .btn {
+  height: 45px;
+}
+
+.footer .section__footer {
+  display: grid;
+  grid-template-columns: minmax(100px, 530px);
+  justify-content: center;
+}

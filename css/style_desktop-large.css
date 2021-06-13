@@ -1,0 +1,29 @@
+.main .section__one .section__one__title {
+  font-size: 4.2rem;
+}
+
+.main .section__two .section__two__fig {
+  max-width: 900px;
+}
+
+.main .section__three .section__three__communites .section__three__title {
+  font-size: 6.4rem;
+}
+
+.footer .section__footer {
+  grid-template-columns: repeat(2, minmax(100px, 550px));
+  padding: 45px 55px;
+}
+
+.footer .section__footer .footer__content__one .footer__title {
+  font-size: 2.5rem;
+}
+
+.footer .section__footer .footer__content__one .footer__form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .section__footer .footer__content__one .footer__form .email .footer__email {
+  width: 370px;
+}
