@@ -44,12 +44,13 @@ body {
 .hero .hero__btn {
   border: 1px solid #ff52bf;
   border-radius: 30px;
-  background: Very-Pale-Blue;
+  background: #fff;
   box-shadow: 0 0 3px 0px #ff8fd8;
   cursor: pointer;
   color: #ff52bf;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+  outline: none;
 }
 
 .hero .hero__btn:hover {
@@ -71,6 +72,7 @@ body {
   box-shadow: 0 1px 5px 1px rgba(0, 37, 46, 0.507);
   position: relative;
   overflow: hidden;
+  outline: none;
 }
 
 .main .btn .bg {
@@ -294,6 +296,7 @@ body {
   font-weight: 600;
   font-size: 1.4rem;
   cursor: pointer;
+  outline: none;
 }
 
 .footer .section__footer .footer__content__one .footer__form .footer__btn:hover {

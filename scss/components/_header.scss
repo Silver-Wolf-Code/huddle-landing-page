@@ -18,12 +18,13 @@
   .hero__btn {
     border: 1px solid $Pink;
     border-radius: 30px;
-    background: Very-Pale-Blue;
+    background: #fff;
     box-shadow: 0 0 3px 0px $Light-Pink;
     cursor: pointer;
     color: $Pink;
     font-family: $font-Body;
     font-weight: 400;
+    outline: none;
 
     &:hover {
       background: $Pink;
